@@ -12,9 +12,30 @@
     </p>
   </div>
   <div>
-  <div class="color green" ></div>
-  <div class="color red" ></div>
-  <div class="color blue" ></div>
+      <div id="colorGreen" class="color green" ></div>
+      <div id="colorRed" class="color red" ></div>
+      <div id="colorBlue" class="color blue" ></div>
 </div>
+
+<script>
+  let Paragraphe = document.querySelector('#text');
+  let Green = document.querySelector('#colorGreen');
+  let Red = document.querySelector('#colorRed');
+  let Blue = document.querySelector('#colorBlue');
+
+  Green.addEventListener('click',() => {
+    Paragraphe.style.color ='green';
+  })
+
+  Red.addEventListener('click',() => {
+    Paragraphe.style.color ='red';
+  })
+
+  Blue.addEventListener('click',() => {
+    Paragraphe.style.color ='blue';
+  })
+
+</script>
+
 </body>
 </html>
