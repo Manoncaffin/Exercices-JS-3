@@ -8,7 +8,7 @@ Pour la sécurité de votre code, à chaque formulaire verifiez que ce qui est s
 Dans le fichier HTML fourni, au survol de l'image ajouter une bordure de 3px rouge et la retirer quand la souris ne la survol plus.
 
 ## Exercice 2
-Dans le fichier HTML fourni, faire afficher ou masquer le texte en fonction de l'ancre.
+Dans le fichier HTML fourni, faire afficerh ou masquer le texte en fonction de l'ancre.
 
 ## Exercice 3
 Dans le fichier HTML fourni, changer la couleur du texte en fonction du bouton choisi.
